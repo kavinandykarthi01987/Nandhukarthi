@@ -1,6 +1,6 @@
 package guvi;
 import java.util.*;
-public class counting {
+public class count {
 public static void main(String[] args) {
 	 Scanner s=new Scanner(System.in);
 	 String input=s.nextLine();
