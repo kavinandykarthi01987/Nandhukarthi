@@ -6,8 +6,11 @@ String s;//pon ponm ponma ponmal o/p:pon
 int count=0,d,r=0;
 char b[]=new char[100];
 Scanner in=new Scanner(System.in);
-s=in.nextLine();
-String str[]=s.split(" ");
+int n=in.nextInt();
+String str[]=new String[n];
+for(int i=0;i<n;i++){
+ str[i]=in.next();
+}
 int a[]=new int[str.length];
 for(int i=0;i<str.length;i++){
 	a[i]=str[i].length();
